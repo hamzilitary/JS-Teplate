@@ -7,3 +7,7 @@ h1 {
   font-family: 'Libre Baskerville', serif;
   color: black;
 }
+
+#answer {
+  display: none;
+}

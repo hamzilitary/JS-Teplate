@@ -2,10 +2,23 @@
 <html>
   <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <title>JSTemplate</title>
   </head>
   <body>
-    <h1>This is a javascript template</h1>
+    <div class="container">
+      <h2>This is a javascript template</h2>
+      <h3>Enter in side sizes to determine the triangles type</h3><br>
+      <label for="side1">Enter Side 1</label>
+      <input id="side1" type="number" class="form-control"><br>
+      <label for="side2">Enter Side 2</label>
+      <input id="side2" type="number" class="form-control"><br>
+      <label for="side3">Enter Side 3</label>
+      <input id="side3" type="number" class="form-control"><br>
+      <button type="submit" class="btn-primary">Submit</button>
+    </div>
+    <div id="answer">
+      <p>test</p>
+    </div>
   </body>
 </html>
