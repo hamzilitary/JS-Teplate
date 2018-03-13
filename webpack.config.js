@@ -36,7 +36,15 @@ module.exports = {
           'style-loader',
           'css-loader'
         ]
-      }
+      },
+      {
+       test: /\.js$/,
+       exclude: [
+         /node_modules/,
+         /spec/
+       ],
+       loader: "eslint-loader"
+     }
     ]
   }
 };
